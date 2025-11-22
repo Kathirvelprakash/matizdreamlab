@@ -1,0 +1,12 @@
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-*
+wp-content/debug.log
+.env
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
