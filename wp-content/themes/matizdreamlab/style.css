@@ -1,0 +1,31 @@
+/*
+ Theme Name:     Matizdreamlab
+ Theme URI:      https://example.com/matizdreamlab
+ Author:         Your Name
+ Author URI:     https://example.com
+ Description:    Child theme for Avada — Matizdreamlab customizations
+ Version:        1.0.0
+ Template:       Avada
+ Text Domain:    matizdreamlab
+*/
+
+
+
+:root{
+  --td-primary: #0f6b6a;
+  --td-accent: #ff8a42;
+  --td-bg: #f4f6f7;
+  --td-card: #ffffff;
+  --td-radius: 12px;
+  --td-hero-h1-d: 64px;
+  --td-hero-h1-t: 42px;
+  --td-hero-h1-m: 32px;
+  --td-body-font-size: 16px;
+}
+body { background: var(--td-bg); font-size: var(--td-body-font-size); }
+.card { background: var(--td-card); border-radius: var(--td-radius); box-shadow: 0 6px 18px rgba(16,24,32,0.06); }
+.btn-primary { background: var(--td-accent); color: #fff; border-radius: 12px; padding: 14px 28px; }
+.tag-pill { background: rgba(15,107,106,0.12); color: var(--td-primary); padding: 6px 12px; border-radius: 999px; display:inline-block; font-weight:600; }
+.hero-h1 { font-size: var(--td-hero-h1-d); line-height: 1.02; font-weight:700; color:#fff; }
+@media (max-width:1024px) { .hero-h1{ font-size:var(--td-hero-h1-t); } }
+@media (max-width:768px) { .hero-h1{ font-size:var(--td-hero-h1-m); } }
